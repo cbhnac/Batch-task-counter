@@ -1,0 +1,11 @@
+{
+	"IsEncrypted": false,
+	"Values": {
+		"AzureWebJobsStorage": "",
+		"AzureWebJobsDashboard": "",
+		"BatchAccountName": "INSERT_ACCOUNT_NAME_HERE",
+		"BatchAccountKey": "INSERT_ACCOUNT_KEY_HERE",
+		"BatchAccountUrl": "INSERT_ACCOUNT_URL_HERE",
+		"JobId": "INSERT_JOB_ID_HERE"
+	}
+}
