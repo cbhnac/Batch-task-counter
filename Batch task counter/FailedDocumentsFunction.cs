@@ -30,7 +30,7 @@ namespace AzureTaskFunctions
 		{
 			var sharedKeyCredentials = new BatchSharedKeyCredentials(BatchAccountUrl, BatchAccountName, BatchAccountKey);
 			using (var batchClient = BatchClient.Open(sharedKeyCredentials))
-			{//files/stdout.txt
+			{
 				var tasks = batchClient.JobOperations.ListTasks(JobId);
 				var failedTaskInformation = tasks.Where(task => task.ExecutionInformation.Result == TaskExecutionResult.Failure).Select(task => new { task.Id, task.CommandLine }).ToList();
 				var dict = new Dictionary<string, string>();
