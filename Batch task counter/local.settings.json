@@ -6,6 +6,7 @@
 		"BatchAccountName": "INSERT_ACCOUNT_NAME_HERE",
 		"BatchAccountKey": "INSERT_ACCOUNT_KEY_HERE",
 		"BatchAccountUrl": "INSERT_ACCOUNT_URL_HERE",
-		"JobId": "INSERT_JOB_ID_HERE"
+		"JobId": "INSERT_JOB_ID_HERE",
+		"LocalPath": "INSERT_FOLDER_PATH_FOR_LOCAL_ERROR_REPORTING"
 	}
 }
