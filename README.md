@@ -6,3 +6,8 @@ It currently has a function with the purpose of counting the number of tasks lef
 Replace the setting values in `local.settings.json` with your own for it to work locally.
 
 After publishing the function to Azure make sure to edit the application settings.
+
+## The counter in action:
+<p align="center">
+  <img src="Counter.gif" />
+</p>
